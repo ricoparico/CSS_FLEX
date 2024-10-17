@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f1d0d0;
+}
+h1{
+    font-size: 50px;
+    color: #b45555;
+}
+
+.navbar {
+    display: flex;
+    background-color: #b45555;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+    margin-top: 12px;
+    font-weight: bold;
+    
+}
+.nav-list a {
+    color: white;
+    text-decoration:none;
+}
+.nav-list a:hover{
+    color: rgb(225, 181, 181);
+}
+
+.product-container, .employee-container, .student-container, .gallery-container,
+.blog-container, .activity-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card, .employee-card, .student-card, .blog-card, .activity-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: #b45555;
+    border-radius: 10px;
+}
+
+.product-card{
+    flex: 1 1 calc(10% - 40px); /* 4 items per row */
+    .img pfp{
+        width: 100px;
+        height: 100px;
+    }
+}
+.student-card {
+    flex: 1 1 calc(20% - 40px); /* 4 items per row */
+}
+
+.employee-card {
+    flex: 1 1 calc(30% - 40px); /* 3 items per row */
+}
+
+.activity-card {
+    flex: 1 1 calc(22% - 40px); /* 4 items per row */
+}
+
+.gallery-container img {
+    width: calc(33% - 20px);
+    margin: 10px;
+    height: 50%;
+    border: solid #b45555;
+    
+}
+
+button{
+    margin-top: 90px;
+    height: 40px;
+    width: 150px;
+    border-radius:10px ;
+    background-color: #b45555;
+    color: #ddd;
+    font-size: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
